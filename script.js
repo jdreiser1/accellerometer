@@ -7,4 +7,8 @@ function handleOrientation(event){
   var gamma = event.gamma;
 
   document.getElementById("alpha").innerHTML = alpha;
+
+  document.getElementById("beta").innerHTML = beta;
+
+  document.getElementById("gamma").innerHTML = gamma;
 }
